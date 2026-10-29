@@ -29,6 +29,20 @@
           <div class="stat-card"><span>Win Rate</span><strong id="winRate">0%</strong></div>
           <div class="stat-card"><span>Average Multiplier</span><strong id="avgMultiplier">0.00x</strong></div>
           <div class="stat-card"><span>Best Multiplier</span><strong id="bestMultiplier">0.00x</strong></div>
+          <div class="stat-card"><span>Current Streak</span><strong id="currentStreak">0</strong></div>
+          <div class="stat-card"><span>Longest Streak</span><strong id="longestStreak">0</strong></div>
+        </section>
+
+        <section class="charts-grid">
+          <div class="panel chart-panel">
+            <h2>Multiplier Trend</h2>
+            <canvas id="trendChart" width="500" height="220"></canvas>
+          </div>
+
+          <div class="panel chart-panel">
+            <h2>Win vs Loss</h2>
+            <canvas id="resultChart" width="420" height="220"></canvas>
+          </div>
         </section>
 
         <section class="panel add-round-panel">

@@ -157,6 +157,25 @@ button:hover {
   font-size: 1.7rem;
 }
 
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.chart-panel {
+  min-height: 260px;
+}
+
+.chart-panel canvas {
+  width: 100%;
+  height: 220px;
+  display: block;
+  background: rgba(15, 23, 42, 0.45);
+  border-radius: 10px;
+}
+
 .round-form {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
