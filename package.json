@@ -1,0 +1,25 @@
+{
+  "name": "aviator-stats-dashboard",
+  "version": "1.0.0",
+  "description": "Legal Aviator-style session tracking dashboard with login and statistics",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "aviator",
+    "dashboard",
+    "stats",
+    "login",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "sqlite3": "^5.1.7"
+  }
+}
